@@ -30,11 +30,11 @@ namespace CodeAcademy
 
 
             Console.WriteLine("Is viso kintamuju: 3");
-            Console.WriteLine($"Kintamasis 1: {earchArea}");
-            Console.WriteLine($"Kintamasis 2: {erchVolume}");
-            Console.WriteLine($"Kintamasis 3: {izambine}");
-            Console.WriteLine($"Suma: {earchArea + erchVolume + izambine}");
-            Console.WriteLine($"Vidurkis: {(earchArea + erchVolume + izambine)/3}");
+            Console.WriteLine($"Kintamasis 1: {Math.Round( earchArea,2)}");
+            Console.WriteLine($"Kintamasis 2: {Math.Round(erchVolume,2)}");
+            Console.WriteLine($"Kintamasis 3: {Math.Round(izambine,2)}");
+            Console.WriteLine($"Suma: {Math.Round( earchArea + erchVolume + izambine,2)}");
+            Console.WriteLine($"Vidurkis: {(Math.Round(earchArea + erchVolume + izambine)/3,2)}");
 
         }
 
