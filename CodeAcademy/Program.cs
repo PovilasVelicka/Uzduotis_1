@@ -6,11 +6,12 @@ namespace CodeAcademy
     {
         //Zemes rutulio plotas
         //spindulys: 6371;
-        public static  double earchArea;
+        public static double earchArea;
+        public static double erchVolume;
         const double PI = 3.14;
         const double EARCH_RADIUS = 6371;
         //Zemes turis
-        public static double erchVolume;
+        
         
         static void Main(string[] args)
         {
