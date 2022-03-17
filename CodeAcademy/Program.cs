@@ -19,6 +19,8 @@ namespace CodeAcademy
             erchVolume = 4 / 3 * PI * Math.Pow(EARCH_RADIUS, 2);
             Console.WriteLine("...");
 
+            //Trikampio izambine
+
             double izambineKvadratu = Math.Pow(10, 2) + Math.Pow(15, 2);
             double izambine = Math.Sqrt(izambineKvadratu);
 
