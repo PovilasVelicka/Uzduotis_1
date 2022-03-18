@@ -15,7 +15,7 @@ namespace CodeAcademy
 
         static void Main(string[] args)
         {
-            earchArea = PI * EARCH_RADIUS * 2;
+            earchArea = PI * (EARCH_RADIUS * 2);
             erchVolume = 4 / 3 * PI * Math.Pow(EARCH_RADIUS, 2);      
 
             Console.WriteLine(
